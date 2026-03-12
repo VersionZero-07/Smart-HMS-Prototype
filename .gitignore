@@ -1,0 +1,47 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+.env
+venv/
+env/
+
+# ML Model (too large for git)
+backend/app/ml/models/*.pkl
+
+# Node
+node_modules/
+frontend/node_modules/
+
+# Build output
+frontend/dist/
+frontend/build/
+
+# Database
+*.db
+*.sqlite
+
+# Docker volumes
+postgres_data/
+
+# Environment files (contain secrets)
+.env
+.env.local
+.env.production
+backend/.env
+frontend/.env
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# IDE
+.vscode/
+.idea/
